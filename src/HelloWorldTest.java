@@ -23,7 +23,7 @@ public class HelloWorldTest {
     @Ignore
     public void thisIsIgnored() {
     }
-    <!-- test new build xml -->
+    <!-- test  -->
 }
 
 
