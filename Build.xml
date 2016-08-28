@@ -2,7 +2,7 @@
 <project default="main">
     
     
-    <target name="main" depends="clean, compile, compress, junit" >
+    <target name="main" depends="clean, compile, compress" >
         <echo>
             Building the .jar file.
         </echo>
@@ -21,7 +21,7 @@
         <classpath refid="junit.class.path" />
         </javac>
     </target>
-
+   
     <target name="compress">
         <jar destfile="bin/HelloWorldTest.jar" basedir="bin" includes="*.class">
         </jar>
@@ -29,6 +29,7 @@
 
     <!-- Run the JUnit Tests -->
   <!-- Output is XML, could also be plain-->
+  <!--
       <target name="junit" depends="clean, compile, compress">
         <junit printsummary="on" fork="false" haltonfailure="yes">
           <classpath refid="junit.class.path" />
@@ -61,7 +62,8 @@
             <delete file="testClassFiles/*.css"/>
     </target>
    
-   <!-- test -->
+   -->
+  
    
    
         
