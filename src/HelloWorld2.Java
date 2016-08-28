@@ -23,5 +23,5 @@ public class HelloWorldTest {
     @Ignore
     public void thisIsIgnored() {
     }
-    <!-- test 79-->
+    <!-- test new build xml-->
 }
