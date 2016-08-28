@@ -23,7 +23,7 @@ public class HelloWorldTest {
     @Ignore
     public void thisIsIgnored() {
     }
-    <!-- test -->
+    <!-- test 2-->
 }
 
 
