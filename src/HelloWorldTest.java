@@ -23,7 +23,7 @@ public class HelloWorldTest {
     @Ignore
     public void thisIsIgnored() {
     }
-    <!-- test just one app change -->
+    <!-- test 1 -->
 }
 
 
